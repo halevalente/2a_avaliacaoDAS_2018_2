@@ -10,9 +10,9 @@ public class TstRendimentoBruto {
 
 	@Test
     public void testeContaCriada() {
-		Investimento investimento = Investimento.obterInvestimento((int)60, (float)1000.0, (float)8.5, (float)22.5);
+		Investimento investimento = Investimento.obterInvestimento((int)120, (float)500.0, (float)8.0, (float)22.5);
 		
-        assertEquals(13.97, investimento.getRendimentoBruto(), 0.1);
+        assertEquals(13.15, investimento.getRendimentoBruto(), 0.1);
     }
 	
 }
