@@ -9,7 +9,7 @@ public class Investimento {
 	private Float taxa_i;
 	private Float aliquota_d;
 	
-//	private Float rendimentoBruto;
+	private Float rendimentoBruto;
 	private Float impostoDeRenda;
 	private Float rendimentoLiquido;
 	
